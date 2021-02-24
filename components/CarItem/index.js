@@ -4,8 +4,8 @@ import StyledButton from '../StyledButton';
 import styles from './styles';
 
 const CarItem = (props) => {
-    //deconstruct props
-    const { name, tagline, taglineAlt, imageSrc } = props 
+    //deconstruct props 
+    const { name, tagline, taglineAlt, imageSrc } = props.car
     
 
     return (

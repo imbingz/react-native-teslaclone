@@ -1,10 +1,11 @@
-import { StyleSheet} from 'react-native'
+import { Dimensions, StyleSheet} from 'react-native'
 
 
 const styles = StyleSheet.create({
     carContainer: {
         width: '100%',
-        height: '100%',
+        // height: '100%', for renderng only one item(car)
+        height: Dimensions.get('window').height
     
       },
       titles: {
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
       },
       subTitleAlt: {
         textDecorationLine: 'underline',
-        
+
       },
       image: {
           width:'100%',
